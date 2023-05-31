@@ -17,7 +17,7 @@
         /* gap: 10px; */
         top:200px;
         /* border: 1px solid blue; */
-        animation: train_motion 7s infinite;
+        /* animation: train_motion 10s infinite; */
     }
 
     @keyframes train_motion {
@@ -25,7 +25,7 @@
             left:-1200px;
         }
         to {
-            left :500px
+            left :700px
         }
     }
     
@@ -92,6 +92,14 @@
         border-radius: 10px;
         margin-top: 12px;
         margin-right: 10px;
+    }
+    .gate>div{
+        width: 60%;
+        margin: auto;
+        margin-top: 8px;
+        height: 55%;
+        border-radius: 6px;
+        border: 1px solid pink;
     }
     
     /*               <-----  WINDOW CSS  ------>              */
