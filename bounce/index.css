@@ -1,0 +1,34 @@
+.cont{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+
+.ball{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid teal ;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: bounce1 2s infinite ease-in-out alternate;
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.cont:nth-child(1){
+    left:-10px;
+}
+
+@keyframes bounce1 {
+    from {
+       top:40px;
+    }
+    to {
+        top:300px
+    }
+}
